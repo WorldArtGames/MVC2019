@@ -3,9 +3,35 @@
 <head>
     <meta charset="utf-8" />
     <title>Neki moj naslov</title>
+    <script>
+        function Pozdrav() {
+            alert("Ovo je neki alert koji se otvori kada se ucita stranica);
+        }
+        function pisi() {
+            console.log("Mis je iznad mene!!!!!!!!!!!  aaaaaaaaaaaaaa")
+        }
+    </script>
 </head>
-<body>
+<body onload="Pozdrav()">
+
+    <input onmouseover="pisi" type="button" onclick="Pozdrav()" value="Kad vidiš komandanta"
+
+    <form>
+        programiranje u: <br />
+        <input type="checkbox" name="vbnet"/>Vb Net <br />
+        <input type="checkbox" name="CHARP" />C# Net <br />
+        <input type="checkbox" name="PEHAPE" />PHP Net <br />
+        <input type="submit" value="Potvrdi" />
+
+    </form>
+
+
+
+
     <a href="http://www.google.hr">vodi me na gugl</a>
+
+    <p>Ovo je paragraf teksta
+    Ovo neće biti u novom redu već u istoj liniji</p>
 
     test2
 </body>
