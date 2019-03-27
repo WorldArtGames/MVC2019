@@ -69,9 +69,18 @@
   <ItemGroup>
     <Content Include="HtmlPage1.html" />
     <Content Include="index html.html" />
+    <Content Include="PozdravnaPoruka.aspx" />
+    <Content Include="tablica.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PozdravnaPoruka.aspx.cs">
+      <DependentUpon>PozdravnaPoruka.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PozdravnaPoruka.aspx.designer.cs">
+      <DependentUpon>PozdravnaPoruka.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
