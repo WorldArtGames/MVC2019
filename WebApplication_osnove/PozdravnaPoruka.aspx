@@ -14,7 +14,7 @@
     text="Label"></asp:label>
 <asp:textbox runat="server"></asp:textbox>
 <asp:button runat="server" text="Button" /><
-
+ <asp:label runat="server"
 
         </div>
     </form>
