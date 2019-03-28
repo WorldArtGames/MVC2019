@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsPrimjer", "WebForms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworld", "helloworld\helloworld.csproj", "{929B5681-40EE-4B4A-AC4A-480C0D65F0CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatematickiIzraz_2.1.1", "MatematickiIzraz_2.1.1\MatematickiIzraz_2.1.1.csproj", "{6676B84C-9F14-4399-B4D4-C89A4B5B8778}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{929B5681-40EE-4B4A-AC4A-480C0D65F0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929B5681-40EE-4B4A-AC4A-480C0D65F0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{929B5681-40EE-4B4A-AC4A-480C0D65F0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6676B84C-9F14-4399-B4D4-C89A4B5B8778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6676B84C-9F14-4399-B4D4-C89A4B5B8778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6676B84C-9F14-4399-B4D4-C89A4B5B8778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6676B84C-9F14-4399-B4D4-C89A4B5B8778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

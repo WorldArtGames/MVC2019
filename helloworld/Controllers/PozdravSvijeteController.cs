@@ -4,14 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace helloworld.Controllers
+namespace helloworld.Controllers 
 {
     public class PozdravSvijeteController : Controller
     {
         // GET: PozdravSvijete
         public ActionResult Index()
         {
-            string model = "Pozdrav svijete lalala";
+            string model = "Pozdrav svijete iz MVC-a";
             return View((object)model);
         }
     }
